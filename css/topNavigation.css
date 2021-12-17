@@ -1,0 +1,39 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.topNavigation {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #888;
+  color: #fff;
+  padding: 0 20px 0 20px;
+}
+
+header p {
+  line-height: 68px;
+}
+
+.content {
+  flex: 1;
+  background-color: #eee;
+  text-align: center;
+  margin-top: 10px;
+}
+
+nav {
+  width: 300px;
+  line-height: 68px;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+li {
+  padding-left: 20px;
+}
